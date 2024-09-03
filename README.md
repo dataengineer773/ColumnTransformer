@@ -1,0 +1,3 @@
+The ColumnTransformer is a class in the scikit-learn Python machin Learning library that always you to selectively apply data preparation transforms,it allows you to apply a specefic transform oe sequence of transform 
+to just the numeric columns and separate a sequence of transforms to just teh categorical columns, to use the ColumnTransform you must specify a list of transforms, Each transformer is a three-element tupple that 
+defines the name of transformer , the transform to apply and thecolumn ibdices to apply it to =========> (Name, Object, Column).....ColumnTrnaformer below applies a OneHotEncoder to column0 and 1.
